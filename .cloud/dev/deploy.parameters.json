@@ -3,16 +3,16 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "eastus2"
+            "value": "uksouth"
         },
         "workspaceName": {
-            "value": "mlw-trunkbased-dev"
+            "value": "AFT-ML-WS-01"
         },
         "resourceGroupName": {
-            "value": "mlops-trunkbased-dev"
+            "value": "AFT-ML-01"
         },
         "cpuTrainComputeSize": {
-            "value": "STANDARD_D12"
+            "value": "standard_D3_v2"
         },
         "gpuTrainComputeSize": {
             "value": "STANDARD_NC6"
@@ -21,13 +21,13 @@
             "value": 2
         },
         "gpuTrainNodeCount": {
-            "value": 2
+            "value": 0
         },
         "datasetsResourceGroup": {
-            "value": "Analytics.Aml.Experiments.Sources"
+            "value": "AFT-ML-01"
         },
         "datasetsAccountName": {
-            "value": "aamldatalake"
+            "value": "aftmlstorage"
         },
         "datasetsFileSystem": {
             "value": "trusted"

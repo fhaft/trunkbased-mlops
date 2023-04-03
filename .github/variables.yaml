@@ -1,9 +1,9 @@
-  WORKSPACENAME: mlw-trunkbased-dev
-  RESOURCEGROUPNAME: mlops-trunkbased-dev
-  STORAGEACCOUNTNAME: aamldatalake
-  LOCATION: eastus2
-  KEYVAULTNAME: kv-trunkbased-dev
-  ENVPREFIX: dev
-  MODELNAME: hate-pt-speech
-  DESCRIPTION: 'A hate detection model for tweets in portuguese'
-  CONDAENVNAME: transformers-torch-19
+CONDAENVNAME: transformers-torch-19
+DESCRIPTION: A hate detection model for tweets in portuguese
+ENVPREFIX: dev
+KEYVAULTNAME: aftmlws018192439893
+LOCATION: uksouth
+MODELNAME: hate-pt-speech
+RESOURCEGROUPNAME: AFT-ML-01
+STORAGEACCOUNTNAME: aftmlstorage
+WORKSPACENAME: AFT-ML-WS-01
