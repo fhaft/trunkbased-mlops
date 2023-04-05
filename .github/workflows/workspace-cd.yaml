@@ -28,8 +28,8 @@ jobs:
           componentSupport: false
           minVersion: 2.0
 
-      - name: Logining in into Azure
-        uses: azure/actions/login@v1
+      - name: Login to Azure
+        uses: Azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
       
